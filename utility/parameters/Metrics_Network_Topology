@@ -1,0 +1,1 @@
+-aM  AdjacencyMatrixNetworkMetric -aM  AllPairDistancesNetworkMetric -aM  ClusteringCoefficientDistributionNetworkMetric -aM  DegreeDistributionNetworkMetric -aM  SpatialPositionsNetworkMetric -sD  SparseAdjacencyMatrix -sD  Positions -sD  DegreeDistr -sD  DegreeDistrStats -sD  ClustCoeffDistr -sD  HierarchClustCoeff -sD  PathLengthInfos -sD  CellToCellDist
