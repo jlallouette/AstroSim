@@ -18,8 +18,12 @@ The following packages are required:
 make depend
 make
 ```
+ 
+
 ## Usage
+
 ### Parameters
+
 AstroSim is a command-line software, simulation parameters are passed through arguments or by providing a file containing a list of arguments. All the available arguments can be displayed using:
 ```
 ./AstroSim -help
