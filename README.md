@@ -18,7 +18,6 @@ The following packages are required:
 make depend
 make
 ```
- 
 
 ## Usage
 
@@ -47,5 +46,5 @@ To launch a simulation using a parameter file, just type:
 ### Saved Data
 Using the -aM (add metric) and -sD (save metric) options, one can choose which values will be computed and which values will be saved. The GUI program shows a full list of available values for these options. To know in details which metric does what, the best is to check the code in source files named \*Metrics.cpp (NetworkMetrics.cpp, PropagationMetrics.cpp, etc.).
 
-The created files are saved by default in ```./data```, this can be modified using the -Path option.
+The created files are saved by default in `./data`, this can be modified using the -Path option.
 
