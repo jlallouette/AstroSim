@@ -19,7 +19,7 @@ make depend
 make
 ```
 
-## Usage
+## Usage 
 
 AstroSim is a command-line software, simulation parameters are passed through arguments or by providing a file containing a list of arguments.
 
