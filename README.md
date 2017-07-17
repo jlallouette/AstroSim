@@ -21,12 +21,11 @@ make
 
 ## Usage
 
+AstroSim is a command-line software, simulation parameters are passed through arguments or by providing a file containing a list of arguments.
+
 ### Parameters
 
-AstroSim is a command-line software, simulation parameters are passed through arguments or by providing a file containing a list of arguments. All the available arguments can be displayed using:
-```
-./AstroSim -help
-```
+All the available arguments can be displayed using `./AstroSim -help`.
 This list of arguments is not meant to be humanly readable, it's better used in conjunction with a small GUI program that parses it and allows you to fill in parameters values.
 This program is located in ./utility/. It depends on [Qt](https://wiki.qt.io/Main) and can be built by:
 ```
