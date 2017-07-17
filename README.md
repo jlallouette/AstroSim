@@ -18,6 +18,7 @@ The following packages are required:
 make depend
 make
 ```
+Running `make depend` is only needed if you changed the code.
 
 ## How to use
 
