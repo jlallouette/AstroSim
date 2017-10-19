@@ -280,6 +280,9 @@ namespace AstroModel
 			bool ok = ODE::ODEProblem<double, double>::ComputeAfterSimMetrics();
 			ok &= ODE::ODEProblem<double, double>::SaveMetrics(saver);
 
+			ok &= metrics.template SaveMetrics<DynMetric>(saver);
+			TRACE("AbstractODENetDynMetric saved.")
+
 			ok &= metrics.template ComputeMetrics<AfterSimMetric>(*this);
 			ok &= metrics.template SaveMetrics<AfterSimMetric>(saver);
 			return ok;
